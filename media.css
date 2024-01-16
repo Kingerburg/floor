@@ -1,0 +1,53 @@
+@media screen and (max-width: 675px) {
+
+    header {
+        position: relative;
+    }
+    .tel-a-btn {
+        margin-right: 30px;
+    }
+    .social {
+        display: none;
+    }
+    .burger {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        transition: 0.5s;
+        z-index: 11;
+    }
+    .line {
+        width: 100%;
+        height: 2px;
+        background: #000;
+    }
+    .menu {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: white;
+        right: -100%;
+        z-index: 10;
+        transition: 0.5s;
+    }
+    .show-menu {
+        right: 0;
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width: 513px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+}

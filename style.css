@@ -1,0 +1,128 @@
+body {
+    position: relative;
+    overflow: hidden;
+}
+.menu {
+    right: -100%;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 20px;
+    background: rgb(201, 201, 201);
+    width: 2048px;
+    max-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 300px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-img {
+    min-width: 77px;
+    height: 77px;
+    background: url('/assents/img/logo/logo.png') no-repeat;
+}
+.logo-title-subtitle {
+    margin-left: 10px;
+    max-width: 180px;
+    height: 100%;
+}
+.h1-title {
+    font-size: 32px;
+    color: black;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.h2-subtitle {
+    white-space: nowrap;
+    font-size: 24px;
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+.tel-a-btn {
+    width: 200px;
+    height: 77px;
+    text-align: center;
+}
+
+.a-tel {
+    font-size: 32px;
+    color: black;
+    transition: 0.5s;
+}
+
+.a-tel:hover {
+    transition: 0.5s;
+    color: antiquewhite;
+}
+
+.tel-btn {
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    transition: 0.5s;
+}
+
+.tel-btn:hover {
+    background: black;
+    color: antiquewhite;
+    transition: 0.5s;
+}
+
+.social {
+    width: 120px;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yu,
+.insta,
+.vk {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.yu {
+    background: url('/assents/img/social/youtube_icon-icons.com_65587.png');
+}
+
+.insta {
+    background: url('/assents/img/social/instagram_f_icon-icons.com_65485.png');
+}
+
+.vk {
+    background: url('/assents/img/social/vkontakte_4557.png');
+}
+
+.yu:hover,
+.insta:hover,
+.vk:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.burger {
+    display: none;
+}
