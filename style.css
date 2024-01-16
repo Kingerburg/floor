@@ -37,7 +37,7 @@ header {
 .logo-img {
     min-width: 77px;
     height: 77px;
-    background: url('/assents/img/logo/logo.png') no-repeat;
+    background: url('assents/img/logo/logo.png') no-repeat;
 }
 .logo-title-subtitle {
     margin-left: 10px;
@@ -106,15 +106,15 @@ header {
 }
 
 .yu {
-    background: url('/assents/img/social/youtube_icon-icons.com_65587.png');
+    background: url('assents/img/social/youtube_icon-icons.com_65587.png');
 }
 
 .insta {
-    background: url('/assents/img/social/instagram_f_icon-icons.com_65485.png');
+    background: url('assents/img/social/instagram_f_icon-icons.com_65485.png');
 }
 
 .vk {
-    background: url('/assents/img/social/vkontakte_4557.png');
+    background: url('assents/img/social/vkontakte_4557.png');
 }
 
 .yu:hover,
