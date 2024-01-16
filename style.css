@@ -1,14 +1,9 @@
-body {
-    position: relative;
-    overflow: hidden;
-}
 .menu {
-    right: -100%;
+    right: -110%;
 }
 .wrapper {
+    position: relative;
     margin: 0 auto;
-    padding: 0 20px;
-    padding-top: 20px;
     background: rgb(201, 201, 201);
     width: 2048px;
     max-width: 100%;
@@ -19,6 +14,7 @@ body {
 }
 
 header {
+    padding: 20px;
     width: 100%;
     height: auto;
     display: flex;
@@ -125,4 +121,143 @@ header {
 }
 .burger {
     display: none;
+}
+
+main {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.main-img {
+    width: 100%;
+    height: 550px;
+    background: url('assents/img/0d4cebfa846a11ee99cb363fac71b015_upscaled.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc-contain {
+    margin: 20px;
+    background: rgba(1, 1, 1, 0.5);
+}
+.main-desc {
+    padding: 0 20px;
+    font-size: 32px;
+    color: antiquewhite;
+}
+
+.list-container {
+    padding-top: 20px;
+    width: 100%;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-title {
+    width: max-content;
+    padding: 10px;
+    color: antiquewhite;
+    font-size: 32px;
+    background: rgba(1, 1, 1, 0.7);
+}
+
+.list-img {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.list-img-advant {
+    width: 200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.advant {
+    width: 64px;
+    height: 64px;
+}
+
+.advant-name {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.deal {
+    background: url('assents/img/advant/deal.png') no-repeat;
+}
+.sertificate {
+    background: url('assents/img/advant/sertificate.png') no-repeat;
+}
+.experenc {
+    background: url('assents/img/advant/experiense.png') no-repeat;
+}
+.mehanica {
+    background: url('assents/img/advant/mehanice.png') no-repeat;
+}
+.list-material {
+    background: url('assents/img/advant/list.png') no-repeat;
+}
+
+.jobs-container {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    overflow: hidden;
+}
+
+.floors {
+    cursor: pointer;
+    width: 33.33%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.toping {
+    background: url('assents/img/8d06329e5ad311eeb34202c370ea8a2f_upscaled.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.semidry {
+    background: url('assents/img/8f330ffda36f11ee89e1b61765e8ab70_upscaled.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.polymer {
+    background: url('assents/img/ceb1489e310d11eeb99c6ee9ab557742_upscaled.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.floors:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.floors-name {
+    padding: 10px;
+    width: max-content;
+    background: rgba(1, 1, 1, 0.5);
+    color: antiquewhite;
+    font-size: 26px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000;
 }
