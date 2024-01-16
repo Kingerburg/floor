@@ -158,7 +158,8 @@ main {
 }
 
 .list-title {
-    width: max-content;
+    max-width: max-content;
+    margin: 20px;
     padding: 10px;
     color: antiquewhite;
     font-size: 32px;
